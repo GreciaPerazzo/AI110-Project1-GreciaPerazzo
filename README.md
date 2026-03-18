@@ -29,9 +29,13 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+
+The gamer guesses the secret number within the number of attempts depending on the difficulty level, each representing a different level of difficulty and range of values for guessing the correct number. Testing the game revealed numerous problems in addition to bugs due to incorrect hints and an incorrect range being displayed on the screen; the incorrect hint was to tell the player to go up based on a guess being too high, and the incorrect range that would always display from 1 - 100 whether the player was playing easy, medium, or hard; and the functions in the program were not in fact being created into logic_utils.py before they were in place. To fix the issues described above, I corrected the hint logic to direct the player where to go, updated the range on the interface to represent the correct range based on the selected level of difficulty as well as the key functions into logic_utils.py and imported them into the app.py file, which fixed the bugs and improved the structure of all code.
+
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 
